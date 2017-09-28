@@ -37,7 +37,7 @@ public class SuperTestNG
 	@BeforeTest
 	public void beforeTest()
 	{
-		
+		//System.out.pritnln("In Before Test");
 		e= new ExtentReports("/home/tyss/Desktop/Reports/testReport.html");
 		e.loadConfig(new File ("/home/tyss/Desktop/craftsvilla/project_craftsvilla/extent-config.xml"));
 			
